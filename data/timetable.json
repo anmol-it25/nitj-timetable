@@ -1,380 +1,978 @@
 {
- "version": 1,
- "meta": {
-  "department": "Department of Information Technology",
-  "program": "B.Tech. (IT) – III Year",
-  "session": "2026–2027 (Odd)",
-  "semester": "B.Tech-IT-3"
- },
- "periods": [
-  {
-   "id": "p1",
-   "label": "Period 1",
-   "start": "08:30",
-   "end": "09:25",
-   "type": "period"
+  "version": 3,
+  "meta": {
+    "department": "Department of Information Technology",
+    "program": "B.Tech. (IT) – III Year",
+    "session": "2026–2027 (Odd)",
+    "semester": "B.Tech-IT-3"
   },
-  {
-   "id": "p2",
-   "label": "Period 2",
-   "start": "09:30",
-   "end": "10:25",
-   "type": "period"
-  },
-  {
-   "id": "p3",
-   "label": "Period 3",
-   "start": "10:30",
-   "end": "11:25",
-   "type": "period"
-  },
-  {
-   "id": "p4",
-   "label": "Period 4",
-   "start": "11:30",
-   "end": "12:25",
-   "type": "period"
-  },
-  {
-   "id": "lunch",
-   "label": "Lunch",
-   "start": "12:30",
-   "end": "13:30",
-   "type": "lunch"
-  },
-  {
-   "id": "p5",
-   "label": "Period 5",
-   "start": "13:30",
-   "end": "14:25",
-   "type": "period"
-  },
-  {
-   "id": "p6",
-   "label": "Period 6",
-   "start": "14:30",
-   "end": "15:25",
-   "type": "period"
-  },
-  {
-   "id": "p7",
-   "label": "Period 7",
-   "start": "15:30",
-   "end": "16:25",
-   "type": "period"
-  },
-  {
-   "id": "p8",
-   "label": "Period 8",
-   "start": "16:30",
-   "end": "17:25",
-   "type": "period"
-  }
- ],
- "subjects": {
-  "CSA-1": {
-   "name": "Computer System Architecture - 1",
-   "color": "csa"
-  },
-  "CSA-2": {
-   "name": "Computer System Architecture - 2",
-   "color": "csa"
-  },
-  "CSAT": {
-   "name": "Computer System Architecture Tutorial",
-   "color": "csa"
-  },
-  "DBMS-1": {
-   "name": "Database Management Systems - 1",
-   "color": "dbms"
-  },
-  "DBMS Lab": {
-   "name": "DBMS Laboratory",
-   "color": "lab"
-  },
-  "DS": {
-   "name": "Data Structures",
-   "color": "ds"
-  },
-  "DS-2": {
-   "name": "Data Structures - 2",
-   "color": "ds"
-  },
-  "DS Lab": {
-   "name": "Data Structures Laboratory",
-   "color": "lab"
-  },
-  "DSS": {
-   "name": "Design and Analysis of Algorithms",
-   "color": "dss"
-  },
-  "OOP-1": {
-   "name": "Object Oriented Programming - 1",
-   "color": "oop"
-  },
-  "OOP Lab": {
-   "name": "OOP Laboratory",
-   "color": "lab"
-  },
-  "WT": {
-   "name": "Web Technologies",
-   "color": "wt"
-  },
-  "WT Lab": {
-   "name": "Web Technologies Laboratory",
-   "color": "lab"
-  }
- },
- "rooms": {
-  "SAC-206": {
-   "type": "Classroom"
-  },
-  "SAC-205": {
-   "type": "Classroom"
-  },
-  "SAC-203": {
-   "type": "Laboratory"
-  },
-  "SAC-401(b)": {
-   "type": "Laboratory"
-  },
-  "SAC-402": {
-   "type": "Laboratory"
-  },
-  "LT-101": {
-   "type": "Lecture Theatre"
-  },
-  "IT Lab (SAC-401)": {
-   "type": "Laboratory"
-  }
- },
- "groups": {
-  "Group 1": {
-   "schedule": {
-    "Monday": {
-     "p2": [
-      {
-       "subject": "CSA-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p3": [
-      {
-       "subject": "DS",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p4": [
-      {
-       "subject": "DSS",
-       "room": "SAC-206",
-       "type": "class"
-      },
-      {
-       "subject": "OOP Lab",
-       "room": "SAC-203",
-       "type": "class"
-      }
-     ],
-     "p5": [
-      {
-       "subject": "CSAT",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p6": [
-      {
-       "subject": "OOP Lab",
-       "room": "SAC-401(b)",
-       "type": "class"
-      },
-      {
-       "subject": "DS-2",
-       "room": "LT-101",
-       "type": "class"
-      }
-     ],
-     "p7": [
-      {
-       "subject": "OOP Lab",
-       "room": "SAC-401(b)",
-       "type": "class"
-      },
-      {
-       "subject": "CSA-2",
-       "room": "LT-101",
-       "type": "class"
-      }
-     ],
-     "p8": [
-      {
-       "subject": "WT",
-       "room": "LT-101",
-       "type": "class"
-      }
-     ]
+  "periods": [
+    {
+      "id": "p1",
+      "label": "Period 1",
+      "start": "08:30",
+      "end": "09:25",
+      "type": "period"
     },
-    "Tuesday": {
-     "p1": [
-      {
-       "subject": "CSA-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p2": [
-      {
-       "subject": "DBMS-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p3": [
-      {
-       "subject": "DSS",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p4": [
-      {
-       "subject": "OOP-1",
-       "room": "SAC-205",
-       "type": "class"
-      }
-     ],
-     "p5": [
-      {
-       "subject": "DS Lab",
-       "room": "IT Lab (SAC-401)",
-       "type": "class"
-      }
-     ],
-     "p6": [
-      {
-       "subject": "DS Lab",
-       "room": "IT Lab (SAC-401)",
-       "type": "class"
-      }
-     ],
-     "p8": [
-      {
-       "subject": "WT",
-       "room": "LT-101",
-       "type": "class"
-      }
-     ]
+    {
+      "id": "p2",
+      "label": "Period 2",
+      "start": "09:30",
+      "end": "10:25",
+      "type": "period"
     },
-    "Wednesday": {
-     "p2": [
-      {
-       "subject": "WT",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p4": [
-      {
-       "subject": "DS",
-       "room": "SAC-206",
-       "type": "class"
-      },
-      {
-       "subject": "OOP Lab",
-       "room": "SAC-401(b)",
-       "type": "class"
-      }
-     ]
+    {
+      "id": "p3",
+      "label": "Period 3",
+      "start": "10:30",
+      "end": "11:25",
+      "type": "period"
     },
-    "Thursday": {
-     "p2": [
-      {
-       "subject": "DBMS-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p3": [
-      {
-       "subject": "OOP-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p4": [
-      {
-       "subject": "DSS",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p5": [
-      {
-       "subject": "DBMS Lab",
-       "room": "SAC-402",
-       "type": "class"
-      }
-     ],
-     "p6": [
-      {
-       "subject": "DBMS Lab",
-       "room": "SAC-402",
-       "type": "class"
-      }
-     ]
+    {
+      "id": "p4",
+      "label": "Period 4",
+      "start": "11:30",
+      "end": "12:25",
+      "type": "period"
     },
-    "Friday": {
-     "p1": [
-      {
-       "subject": "OOP-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p2": [
-      {
-       "subject": "DBMS-1",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p3": [
-      {
-       "subject": "WT",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p4": [
-      {
-       "subject": "DS",
-       "room": "SAC-206",
-       "type": "class"
-      }
-     ],
-     "p7": [
-      {
-       "subject": "WT Lab",
-       "room": "SAC-205",
-       "type": "class"
-      }
-     ],
-     "p8": [
-      {
-       "subject": "WT Lab",
-       "room": "SAC-205",
-       "type": "class"
-      }
-     ]
+    {
+      "id": "lunch",
+      "label": "Lunch",
+      "start": "12:30",
+      "end": "13:30",
+      "type": "lunch"
+    },
+    {
+      "id": "p5",
+      "label": "Period 5",
+      "start": "13:30",
+      "end": "14:25",
+      "type": "period"
+    },
+    {
+      "id": "p6",
+      "label": "Period 6",
+      "start": "14:30",
+      "end": "15:25",
+      "type": "period"
+    },
+    {
+      "id": "p7",
+      "label": "Period 7",
+      "start": "15:30",
+      "end": "16:25",
+      "type": "period"
+    },
+    {
+      "id": "p8",
+      "label": "Period 8",
+      "start": "16:30",
+      "end": "17:25",
+      "type": "period"
     }
-   }
+  ],
+  "subjects": {
+    "CSA-1": {
+      "name": "Computer System Architecture - 1",
+      "color": "csa"
+    },
+    "CSA-2": {
+      "name": "Computer System Architecture - 2",
+      "color": "csa"
+    },
+    "CSAT": {
+      "name": "Computer System Architecture Tutorial",
+      "color": "csa"
+    },
+    "DBMS-1": {
+      "name": "Database Management Systems - 1",
+      "color": "dbms"
+    },
+    "DBMS-2": {
+      "name": "Database Management Systems - 2",
+      "color": "dbms"
+    },
+    "DBMS Lab": {
+      "name": "DBMS Laboratory",
+      "color": "lab"
+    },
+    "DS": {
+      "name": "Data Structures",
+      "color": "ds"
+    },
+    "DS-2": {
+      "name": "Data Structures - 2",
+      "color": "ds"
+    },
+    "DS Lab": {
+      "name": "Data Structures Laboratory",
+      "color": "lab"
+    },
+    "DSS": {
+      "name": "Design and Analysis of Algorithms",
+      "color": "dss"
+    },
+    "DSS-2": {
+      "name": "Design and Analysis of Algorithms - 2",
+      "color": "dss"
+    },
+    "OOP-1": {
+      "name": "Object Oriented Programming - 1",
+      "color": "oop"
+    },
+    "OOP-2": {
+      "name": "Object Oriented Programming - 2",
+      "color": "oop"
+    },
+    "OOP Lab": {
+      "name": "OOP Laboratory",
+      "color": "lab"
+    },
+    "WT": {
+      "name": "Web Technologies",
+      "color": "wt"
+    },
+    "WT Lab": {
+      "name": "Web Technologies Laboratory",
+      "color": "lab"
+    }
   },
-  "Group 2": null,
-  "Group 3": null,
-  "Group 4": null
- },
- "overrides": []
+  "rooms": {
+    "SAC-206": {
+      "type": "Classroom"
+    },
+    "SAC-205": {
+      "type": "Classroom"
+    },
+    "SAC-203": {
+      "type": "Laboratory"
+    },
+    "SAC-401(b)": {
+      "type": "Laboratory"
+    },
+    "SAC-402": {
+      "type": "Laboratory"
+    },
+    "LT-101": {
+      "type": "Lecture Theatre"
+    },
+    "IT Lab (SAC-401)": {
+      "type": "Laboratory"
+    }
+  },
+  "groups": {
+    "Group 1": {
+      "schedule": {
+        "Monday": {
+          "p2": [
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "CSAT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP Lab",
+              "room": "SAC-401(b)",
+              "type": "class"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "OOP Lab",
+              "room": "SAC-401(b)",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "room": "LT-101",
+              "type": "class"
+            }
+          ]
+        },
+        "Tuesday": {
+          "p1": [
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-205",
+              "type": "class"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DS Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DS Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "room": "LT-101",
+              "type": "class"
+            }
+          ]
+        },
+        "Wednesday": {
+          "p2": [
+            {
+              "subject": "WT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ]
+        },
+        "Thursday": {
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS Lab",
+              "room": "SAC-402",
+              "type": "class"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DBMS Lab",
+              "room": "SAC-402",
+              "type": "class"
+            }
+          ]
+        },
+        "Friday": {
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "WT Lab",
+              "room": "SAC-205",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT Lab",
+              "room": "SAC-205",
+              "type": "class"
+            }
+          ]
+        }
+      }
+    },
+    "Group 2": {
+      "schedule": {
+        "Monday": {
+          "p2": [
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "CSAT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DS Lab",
+              "room": "SAC-203",
+              "type": "class"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DS Lab",
+              "room": "SAC-203",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "room": "LT-101",
+              "type": "class"
+            }
+          ]
+        },
+        "Tuesday": {
+          "p1": [
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DBMS Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "room": "LT-101",
+              "type": "class"
+            }
+          ]
+        },
+        "Wednesday": {
+          "p2": [
+            {
+              "subject": "WT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "OOP Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "OOP Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ]
+        },
+        "Thursday": {
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DSS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "WT Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT Lab",
+              "room": "IT Lab (SAC-401)",
+              "type": "class"
+            }
+          ]
+        },
+        "Friday": {
+          "p2": [
+            {
+              "subject": "DBMS-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "OOP-1",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DS",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ]
+        }
+      }
+    },
+    "Group 3": {
+      "schedule": {
+        "Monday": {
+          "p3": [
+            {
+              "subject": "OOP Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "OOP Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Tuesday": {
+          "p3": [
+            {
+              "subject": "DS Lab",
+              "type": "class",
+              "room": "SAC-203"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "DS Lab",
+              "type": "class",
+              "room": "SAC-203"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Wednesday": {
+          "p3": [
+            {
+              "subject": "WT Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "WT Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p2": [
+            {
+              "subject": "WT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ]
+        },
+        "Thursday": {
+          "p2": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Friday": {
+          "p4": [
+            {
+              "subject": "CSAT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        }
+      }
+    },
+    "Group 4": {
+      "schedule": {
+        "Monday": {
+          "p3": [
+            {
+              "subject": "WT Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "WT Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Tuesday": {
+          "p5": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "WT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Wednesday": {
+          "p3": [
+            {
+              "subject": "OOP Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "OOP Lab",
+              "type": "class",
+              "room": "SAC-401(b)"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DSS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p2": [
+            {
+              "subject": "WT",
+              "room": "SAC-206",
+              "type": "class"
+            }
+          ]
+        },
+        "Thursday": {
+          "p2": [
+            {
+              "subject": "DS Lab",
+              "type": "class",
+              "room": "SAC-203"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DS Lab",
+              "type": "class",
+              "room": "SAC-203"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "OOP-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p8": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        },
+        "Friday": {
+          "p2": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
+          "p4": [
+            {
+              "subject": "CSAT",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p5": [
+            {
+              "subject": "DBMS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p6": [
+            {
+              "subject": "CSA-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ],
+          "p7": [
+            {
+              "subject": "DS-2",
+              "type": "class",
+              "room": "LT-101"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "overrides": []
 }
