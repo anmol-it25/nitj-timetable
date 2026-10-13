@@ -702,20 +702,7 @@
           ]
         },
         "Thursday": {
-          "p2": [
-            {
-              "subject": "DBMS Lab",
-              "type": "class",
-              "room": "SAC-205"
-            }
-          ],
-          "p3": [
-            {
-              "subject": "DBMS Lab",
-              "type": "class",
-              "room": "SAC-205"
-            }
-          ],
+          
           "p6": [
             {
               "subject": "OOP-2",
@@ -739,6 +726,20 @@
           ]
         },
         "Friday": {
+          "p2": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
+          "p3": [
+            {
+              "subject": "DBMS Lab",
+              "type": "class",
+              "room": "SAC-205"
+            }
+          ],
           "p4": [
             {
               "subject": "CSAT",
@@ -893,18 +894,19 @@
         "Thursday": {
           "p2": [
             {
-              "subject": "DS Lab",
+              "subject": "DBMS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "SAC-401(b)"
             }
           ],
           "p3": [
             {
-              "subject": "DS Lab",
+              "subject": "DBMS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "SAC-401(b)"
             }
           ],
+          
           "p6": [
             {
               "subject": "OOP-2",
@@ -930,16 +932,16 @@
         "Friday": {
           "p2": [
             {
-              "subject": "DBMS Lab",
+              "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-203"
             }
           ],
           "p3": [
             {
-              "subject": "DBMS Lab",
+              "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-203"
             }
           ],
           "p4": [
