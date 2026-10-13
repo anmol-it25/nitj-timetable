@@ -574,14 +574,14 @@
             {
               "subject": "OOP Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-203"
             }
           ],
           "p4": [
             {
               "subject": "OOP Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-203"
             }
           ],
           "p5": [
@@ -618,14 +618,14 @@
             {
               "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "IT Lab (SAC-401)"
             }
           ],
           "p4": [
             {
               "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "IT Lab (SAC-401)"
             }
           ],
           "p5": [
@@ -662,14 +662,14 @@
             {
               "subject": "WT Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "IT Lab (SAC-401)"
             }
           ],
           "p4": [
             {
               "subject": "WT Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "IT Lab (SAC-401)"
             }
           ],
           "p5": [
@@ -896,14 +896,14 @@
             {
               "subject": "DBMS Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-402"
             }
           ],
           "p3": [
             {
               "subject": "DBMS Lab",
               "type": "class",
-              "room": "SAC-401(b)"
+              "room": "SAC-402"
             }
           ],
           
@@ -934,14 +934,14 @@
             {
               "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "SAC-402"
             }
           ],
           "p3": [
             {
               "subject": "DS Lab",
               "type": "class",
-              "room": "SAC-203"
+              "room": "SAC-402"
             }
           ],
           "p4": [
