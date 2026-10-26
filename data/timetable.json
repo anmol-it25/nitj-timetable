@@ -273,13 +273,6 @@
               "type": "class"
             }
           ],
-          "p3":[
-            {
-              "subject": "CSA-1",
-              "room": "SAC-206",
-              "type": "class"   
-            }
-          ],
           "p4": [
             {
               "subject": "DS",
@@ -345,6 +338,13 @@
               "subject": "DS",
               "room": "SAC-206",
               "type": "class"
+            }
+          ],
+          "p6":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
             }
           ],
           "p7": [
@@ -476,13 +476,6 @@
               "type": "class"
             }
           ],
-          "p3": [
-            {
-              "subject": "CSA-1",
-              "room": "SAC-206",
-              "type": "class"
-            }
-          ],
           "p4": [
             {
               "subject": "DS",
@@ -563,6 +556,13 @@
               "room": "SAC-206",
               "type": "class"
             }
+          ],
+          "p6":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
+            }
           ]
         }
       }
@@ -570,6 +570,13 @@
     "Group 3": {
       "schedule": {
         "Monday": {
+          "p2":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
+            }
+          ],
           "p3": [
             {
               "subject": "OOP Lab",
@@ -598,13 +605,6 @@
               "room": "LT-101"
             }
           ],
-          "p7": [
-            {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
-            }
-          ],
           "p8": [
             {
               "subject": "WT",
@@ -614,6 +614,13 @@
           ]
         },
         "Tuesday": {
+          "p1":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
+            }
+          ],
           "p3": [
             {
               "subject": "DS Lab",
@@ -710,13 +717,6 @@
               "room": "LT-101"
             }
           ],
-          "p7": [
-            {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
-            }
-          ],
           "p8": [
             {
               "subject": "DBMS-2",
@@ -754,11 +754,11 @@
               "room": "LT-101"
             }
           ],
-          "p6": [
+          "p6":[
             {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
             }
           ],
           "p7": [
@@ -774,6 +774,13 @@
     "Group 4": {
       "schedule": {
         "Monday": {
+          "p2":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
+            }
+          ],
           "p3": [
             {
               "subject": "WT Lab",
@@ -802,13 +809,6 @@
               "room": "LT-101"
             }
           ],
-          "p7": [
-            {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
-            }
-          ],
           "p8": [
             {
               "subject": "WT",
@@ -823,6 +823,13 @@
               "subject": "DSS-2",
               "type": "class",
               "room": "LT-101"
+            }
+          ],
+          "p1":[
+            {
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
             }
           ],
           "p6": [
@@ -914,13 +921,6 @@
               "room": "LT-101"
             }
           ],
-          "p7": [
-            {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
-            }
-          ],
           "p8": [
             {
               "subject": "DBMS-2",
@@ -958,11 +958,11 @@
               "room": "LT-101"
             }
           ],
-          "p6": [
+          "p6":[
             {
-              "subject": "CSA-2",
-              "type": "class",
-              "room": "LT-101"
+              "subject": "CSA-1",
+              "room": "SAC-206",
+              "type": "class"   
             }
           ],
           "p7": [
